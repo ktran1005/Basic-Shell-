@@ -24,13 +24,13 @@ In this project, I developed a user shell (i.e command line interface) similar t
     ```
   * Implement the builtin command `which'. This command accepts 1 parameter (a program name), searches the system PATH for the program, and prints its full path to stdout if found (or simply nothing if it is not found). If a fully qualied path or relative path is supplied to an executable program, then that path should simply be printed to stdout. If the supplied program name is another builtin command, your shell should indicate that in a message printed to stdout. The behavior should be identical to bash's builtin which command. For example:
     ```
-    /home/jshack/pssh$ which ls
+    /home/tran/pssh$ which ls
     /bin/ls
-    /home/jshack/pssh$ which lakjasdlkfjasdlkfj
-    /home/jshack/pssh$ which exit
+    /home/tran/pssh$ which lakjasdlkfjasdlkfj
+    /home/trand/pssh$ which exit
     exit: shell built-in command
-    /home/jshack/pssh$ which which
+    /home/tran/pssh$ which which
     which: shell built-in command
-    /home/jshack/pssh$ which man
+    /home/tran/pssh$ which man
     /usr/bin/man
     ```
