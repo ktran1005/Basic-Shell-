@@ -48,7 +48,6 @@ In this project, I developed a user shell (i.e command line interface) similar t
      $
      ```
    * You will be able to continue a stopped job in the background using the new bg command: <br />
-   * You will be able to continue a stopped job in the background using the new bg command:
      ```
      $ jobs
      [0] + stopped sleep 100
