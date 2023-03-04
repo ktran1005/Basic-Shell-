@@ -81,7 +81,7 @@ In this project, I developed a user shell (i.e command line interface) similar t
      encoding frame 42239286 [OK]^Z
      [0] + suspended frame_grabber cam0 | encode -o awesome_mem.mp4 &
      $
-    ```
+     ```
    * You will also be able to kill all processes associated with a job using the new built-in kill command:
      ```
      $ jobs
