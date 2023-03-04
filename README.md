@@ -3,7 +3,7 @@
 ## Overview
 In this project, I developed a user shell (i.e command line interface) similar to bash, zsh. There are two major parts in this project. <br />
 
-# Part 1 This shell is able to perform the following operations: <br />
+# Part 1: This shell is able to perform the following operations: <br />
   * Display the current working directory within the prompt (before the dollar sign): <br />
     ```
     /home/tran/pssh$
@@ -36,3 +36,5 @@ In this project, I developed a user shell (i.e command line interface) similar t
     /home/tran/pssh$ which man
     /usr/bin/man
     ```
+# Part 2: The shell is added Process Groups, Signals and Signal Handlers in order to implement a standard job control system similar to the ones found in most shell <br />
+   
