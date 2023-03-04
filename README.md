@@ -47,4 +47,50 @@ In this project, I developed a user shell (i.e command line interface) similar t
      [0]    + stopped   sleep 100
      $
      ```
+   * You will be able to continue a stopped job in the background using the new bg command: <br />
+    ```
+   * You will be able to continue a stopped job in the background using the new bg command:
+     ```
+     $ jobs
+     [0] + stopped sleep 100
+     [1] + stopped sleep 500
+     $ bg %1
+     [1] + continued sleep 500
+     $ jobs
+     [0] + stopped sleep 100
+     [1] + running sleep 500
+     $
+     ```
+   * You will be able to start a job in the background by ending a command with the ampersand (&) character. Doing this causes the shell to display the job number and the involved process IDs separated by spaces: <br />
+     ```
+     $ frame_grabber cam0 | encode -o awesome_meme.mp4 &
+     [0] 3626 3627
+     $ jobs
+     [0] + running frame_grabber cam0 | encode -o awesome_meme.mp4 &
+     $
+     ```
+   * You will be able to move a background or stopped job to the foreground using the new built-in fg command: <br />
+     ```
+     $ jobs
+     [0] + running frame_grabber cam0 | encode -o awesome_meme.mp4 &
+     $ fg %0
+     encoding frame 42239282 [OK]
+     encoding frame 42239283 [OK]
+     encoding frame 42239284 [OK]
+     encoding frame 42239285 [OK]
+     encoding frame 42239286 [OK]^Z
+     [0] + suspended frame_grabber cam0 | encode -o awesome_mem.mp4 &
+     $
+    ```
+   * You will also be able to kill all processes associated with a job using the new built-in kill command:
+     ```
+     $ jobs
+     [0] + running frame_grabber cam0 | encode -o awesome_meme.mp4 &
+     $ kill %0
+     [0] + done frame_grabber cam0 | encode -o awesome_meme.mp4 &
+     $
+     ```
+   
+    
+    
    
