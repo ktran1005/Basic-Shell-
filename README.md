@@ -36,5 +36,5 @@ In this project, I developed a user shell (i.e command line interface) similar t
     /home/tran/pssh$ which man
     /usr/bin/man
     ```
-# Part 2: The shell is added Process Groups, Signals and Signal Handlers in order to implement a standard job control system similar to the ones found in most shell <br />
+# Part 2: The shell is added Process Groups, Signals and Signal Handlers in order to implement a standard job control system <br />
    
