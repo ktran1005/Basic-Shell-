@@ -1,7 +1,8 @@
 # Basic Shell
 
 ## Overview
-In this project, I developed a user shell (i.e command line interface) similar to bash, zsh. This shell is able to perform the following operations: <br />
+In this project, I developed a user shell (i.e command line interface) similar to bash, zsh. There are two major parts in this project. <br />
+Part 1 This shell is able to perform the following operations: <br />
   * Display the current working directory within the prompt (before the dollar sign): <br />
     ```
     /home/tran/pssh$
