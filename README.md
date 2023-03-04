@@ -37,4 +37,14 @@ In this project, I developed a user shell (i.e command line interface) similar t
     /usr/bin/man
     ```
 # Part 2: The shell is added Process Groups, Signals and Signal Handlers in order to implement a standard job control system <br />
+   * You will be able to check the status of jobs with the new built-in jobs command <br />
+   * You will be able to send signals to specic processes and job numbers from your command line using the new built-in kill command <br />
+   * You will be able to suspend the foreground job by hitting Ctrl+z 
+     ```
+     $ sleep 100
+     ^Z[0]  + suspended         sleep 100
+     $ jobs
+     [0]    + stopped   sleep 100
+     $
+     ```
    
