@@ -88,6 +88,10 @@ In this project, I developed a user shell (i.e command line interface) similar t
      [0] + done frame_grabber cam0 | encode -o awesome_meme.mp4 &
      $
      ```
+## Demo
+# Part 1:
+[![asciicast](https://asciinema.org/a/569210.svg)](https://asciinema.org/a/569210)
+
    
     
     
