@@ -1,9 +1,9 @@
 # Basic Shell
 
-## Overview
+# Overview
 In this project, I developed a user shell (i.e command line interface) similar to bash, zsh. There are two major parts in this project. <br />
 
-# Part 1: The shell is able to perform the following operations: <br />
+## Part 1: The shell is able to perform the following operations: <br />
   * Display the current working directory within the prompt (before the dollar sign): <br />
     ```
     /home/tran/pssh$
@@ -36,7 +36,7 @@ In this project, I developed a user shell (i.e command line interface) similar t
     /home/tran/pssh$ which man
     /usr/bin/man
     ```
-# Part 2: The shell is added Process Groups, Signals and Signal Handlers in order to implement a standard job control system <br />
+## Part 2: The shell is added Process Groups, Signals and Signal Handlers in order to implement a standard job control system <br />
    * You will be able to check the status of jobs with the new built-in jobs command <br />
    * You will be able to send signals to specic processes and job numbers from your command line using the new built-in kill command <br />
    * You will be able to suspend the foreground job by hitting Ctrl+z 
@@ -88,8 +88,8 @@ In this project, I developed a user shell (i.e command line interface) similar t
      [0] + done frame_grabber cam0 | encode -o awesome_meme.mp4 &
      $
      ```
-## Demo
-# Part 1:
+# Demo
+## Part 1:
 [![asciicast](https://asciinema.org/a/569210.svg)](https://asciinema.org/a/569210)
 
    
