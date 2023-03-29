@@ -92,6 +92,9 @@ In this project, I developed a user shell (i.e command line interface) similar t
 ## Part 1:
 [![asciicast](https://asciinema.org/a/569210.svg)](https://asciinema.org/a/569210)
 
+## Part 2:
+[![asciicast](https://asciinema.org/a/572091.svg)](https://asciinema.org/a/572091)
+
    
     
     
